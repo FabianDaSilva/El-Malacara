@@ -1,332 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Bootstrap -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous"
+      />
+      <!-- Css -->
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>El Malacara</title>
+   </head>
+   <body>
+      <!-- NavBar -->
+      <nav class="navbar">
+         <div class="navbar__container">
+            <a href="#">
+               <img
+                  src="https://i.ibb.co/GtMT87R/logo.png"
+                  alt="logo"
+                  border="0"
+            /></a>
+            <div class="navbar__toggle" id="mobile-menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+               <li class="navbar__item">
+                  <a href="#detalles" class="navbar__links" id="detalles-home"
+                     >QUIÉNES SOMOS</a
+                  >
+               </li>
+               <li class="navbar__item">
+                  <a href="#productos" class="navbar__links" id="producto-home"
+                     >NUESTROS PRODUCTOS</a
+                  >
+               </li>
+               <li class="navbar__item">
+                  <a href="#contacto" class="navbar__links" id="contacto-home"
+                     >CONTACTO</a
+                  >
+               </li>
+            </ul>
+         </div>
+      </nav>
 
-<head>
-     <meta charset="UTF-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <!-- Bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-     <!-- Css -->
-     <link rel="stylesheet" href="./css/style.css" />
-     <title>El Malacara</title>
-</head>
-
-<body>
-
-     <!-- NavBar -->
-     <nav class="navbar navbar-expand-md navbar-dark">
-          <div class="container">
-               <a href="#"><img src="https://i.ibb.co/GtMT87R/logo.png" alt="logo" border="0" /></a>
-               <ul class="navbar-nav content centered-elements">
-                    <li class="nav-item">
-                         <a class="nav-link link--2" href="#">QUIÉNES SOMOS
-                         </a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link link--2" href="#">NUESTROS PRODUCTOS </a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link link--2" href="#"><span class="linea">CONTACTANOS</span></a>
-                    </li>
-               </ul>
-          </div>
-          </div>
-          </div>
-     </nav>
-
-     <!-- Slide -->
-     <header>
-          <section class="section-slide ">
-               <div id="carouselExampleControlsNoTouching" class="carousel slide " data-bs-touch="false"
-                    data-bs-interval="false">
-                    <div class="carousel-inner">
-                         <div class="carousel-item active">
-                              <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img">
-                         </div>
-                         <div class="carousel-item">
-                              <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img">
-                         </div>
-                         <div class="carousel-item">
-                              <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img">
-                         </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button"
-                         data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-
-                         <span class="carousel-control-prev-icon" aria-hidden="true">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                   <path
-                                        d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM310.6 345.4c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0l-112-112C147.1 272.4 144 264.2 144 256s3.125-16.38 9.375-22.62l112-112c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L221.3 256L310.6 345.4z" />
-                              </svg>
-                         </span>
-                         <span class="visually-hidden"></span>
-
-
-                    </button>
-                    <button class="carousel-control-next" type="button"
-                         data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                         <span class="carousel-control-next-icon" aria-hidden="true">
-                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                   <path
-                                        d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM358.6 278.6l-112 112c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L290.8 256L201.4 166.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l112 112C364.9 239.6 368 247.8 368 256S364.9 272.4 358.6 278.6z" />
-                              </svg>
-                         </span>
-                         <span class="visually-hidden">Next</span>
-                    </button>
+      <!-- Slide -->
+      <header>
+         <section class="section-slide">
+            <div
+               id="carouselExampleControlsNoTouching"
+               class="carousel slide"
+               data-bs-touch="false"
+               data-bs-interval="false"
+            >
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img
+                        src="https://i.ibb.co/kGYvbYy/slide.png"
+                        alt="slide"
+                        border="0"
+                        class="slide-img"
+                     />
+                  </div>
+                  <div class="carousel-item">
+                     <img
+                        src="https://i.ibb.co/kGYvbYy/slide.png"
+                        alt="slide"
+                        border="0"
+                        class="slide-img"
+                     />
+                  </div>
+                  <div class="carousel-item">
+                     <img
+                        src="https://i.ibb.co/kGYvbYy/slide.png"
+                        alt="slide"
+                        border="0"
+                        class="slide-img"
+                     />
+                  </div>
                </div>
-          </section>
-     </header>     
-     <!-- Whatsapp -->
-     <a href="https://api.whatsapp.com/send?phone=1128376428" target="_blank" class="btn-wsp">
-          <img src="./images/icon-wp.png" alt="" class="img_wsp">
-     </a>
+               <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControlsNoTouching"
+                  data-bs-slide="prev"
+               >
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                     >
+                        <path
+                           d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM310.6 345.4c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0l-112-112C147.1 272.4 144 264.2 144 256s3.125-16.38 9.375-22.62l112-112c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L221.3 256L310.6 345.4z"
+                        />
+                     </svg>
+                  </span>
+                  <span class="visually-hidden"></span>
+               </button>
+               <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControlsNoTouching"
+                  data-bs-slide="next"
+               >
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                     >
+                        <path
+                           d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM358.6 278.6l-112 112c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L290.8 256L201.4 166.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l112 112C364.9 239.6 368 247.8 368 256S364.9 272.4 358.6 278.6z"
+                        />
+                     </svg>
+                  </span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+         </section>
+      </header>
+      <!-- Whatsapp -->
+      <a
+         href="https://api.whatsapp.com/send?phone=1128376428"
+         target="_blank"
+         class="btn-wsp"
+      >
+         <img src="./images/icon-wp.png" alt="" class="img_wsp" />
+      </a>
 
-     <!-- Detalles -->
-     <section class="home-details-allcontainer">
-          <div class="home-details-container">
-               <div class="home-details-text">
-                    <h3 class="home-details-text__pretitle">Estamos en los</h3>
-                    <h1 class="home-details-text__title">DETALLES</h1>
-                    <p class="home-details-text__paragraph">Somos una pequeña empresa argentina que realiza piezas artesanales de primera calidad, hechas con madera, hierro y cuero, las cuales harán vestir tu casa<span class="empty">.</span> 
-                    </p>
-               </div>
-               <div class="home-details__img-col-1">
-                    <img class="single-detail-img" src="https://i.ibb.co/F8m2ph1/detalles02.png" alt="detalles02" border="0">
-               </div>
-               <div class="home-details__img-col-2">
-                    <img class="home-details__img-col-2_img1" src="https://i.ibb.co/YbK4X7j/detalles01.png" alt="detalles01" border="0">
-                    <img class="home-details__img-col-2_img2" src="https://i.ibb.co/5jdyCgQ/detalles03.png" alt="detalles03" border="0">
-               </div>
+      <!-- Detalles -->
+      <section class="home-details-allcontainer" id="detalles">
+         <div class="home-details-container">
+            <div class="home-details-text">
+               <h3 class="home-details-text__pretitle">Estamos en los</h3>
+               <h1 class="home-details-text__title">DETALLES</h1>
+               <p class="home-details-text__paragraph">
+                  Somos una pequeña empresa argentina que realiza piezas
+                  artesanales de primera calidad, hechas con madera, hierro y
+                  cuero, las cuales harán vestir tu casa<span class="empty"
+                     >.</span
+                  >
+               </p>
+            </div>
+            <div class="home-details__img-col-1">
+               <img
+                  class="single-detail-img"
+                  src="https://i.ibb.co/F8m2ph1/detalles02.png"
+                  alt="detalles02"
+                  border="0"
+               />
+            </div>
+            <div class="home-details__img-col-2">
+               <img
+                  class="home-details__img-col-2_img1"
+                  src="https://i.ibb.co/YbK4X7j/detalles01.png"
+                  alt="detalles01"
+                  border="0"
+               />
+               <img
+                  class="home-details__img-col-2_img2"
+                  src="https://i.ibb.co/5jdyCgQ/detalles03.png"
+                  alt="detalles03"
+                  border="0"
+               />
+            </div>
+         </div>
+      </section>
 
-          </div>       
-     </section>
-
-     <!-- Productos -->
-     <section class="home-product container">
-          <div class="container-products">
-               <div class="prueba">
+      <!-- Productos -->
+      <section class="home-product container" id="productos">
+         <div class="container-products">
+            <div class="prueba">
                <div class="container-title">
-                    <span class="upper-title">
-                         Nuestros
-                    </span>
-                    <h1 class="home-contact__title__products">
-                         PRODUCTOS
-                    </h1>
-                    
-                    </div>
+                  <span class="upper-title"> Nuestros </span>
+                  <h1 class="home-contact__title__products">PRODUCTOS</h1>
                </div>
+            </div>
 
-
-               <div class=" mt-5 row gx-3 gy-3">
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png"" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/5KLN8wn/productos02.png" alt="productos02" border="0">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/Cn5SFjf/productos04.png" alt="productos04" border="0">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/2d40xYH/productos05.png" alt="productos05" border="0">
-                         <div class="card-body ">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body ">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
-                    <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem;">
-                         <img src="https://i.ibb.co/m0fFZMv/productos01.png" class=" card-img-top" alt="...">
-                         <div class="card-body">
-                              <h5 class="card-title">Prueba</h5>
-                              <p class="card-text">Some quick example text to build on the Prueba and make up the bulk
-                                   of
-                                   the card's content.</p>
-
-                         </div>
-                    </div>
+            <div class="mt-5 row gx-3 gy-3">
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img src="https://i.ibb.co/m0fFZMv/productos01.png"" class="
+                  card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-     </section>
-
-     <!-- Payment & Shipment -->
-     <section class="payment-shipment-container">
-          <div class="payment-shipment__boxes shipment-box1">
-               <img src="./images/creditcard.png" alt="">
-               <div class="shipment-info-container">
-                    <h6 class="shipment-item-title">ACEPTAMOS TRANSFERENCIA BANCARIA Y MERCADO PAGO</h6>
-                    <p class="shipment-item-text">
-                         Consultanos por nuestro whatsapp por otros medios de pago habilitados
-                    </p>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/5KLN8wn/productos02.png"
+                     alt="productos02"
+                     border="0"
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-          <div class="payment-shipment__boxes shipment-box2">
-               <img src="./images/truck.png" alt="">
-               <div class="shipment-info-container">
-                    <h6 class="shipment-item-title">ENVÍOS A TODO EL PAÍS</h6>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/Cn5SFjf/productos04.png"
+                     alt="productos04"
+                     border="0"
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-          <div class="payment-shipment__boxes shipment-box3">
-               <img src="./images/medal.png" alt="">
-               <div class="shipment-info-container">
-                    <h6 class="shipment-item-title">NUESTROS PRODUCTOS TIENEN GARANTÍA DE POR VIDA</h6>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/2d40xYH/productos05.png"
+                     alt="productos05"
+                     border="0"
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-     </section>
-
-     <!-- contacto -->
-     <section class="home-contact">
-          <p class="question">
-               ¿Tenés alguna duda o consulta?
-          </p>
-          <h2 class="home-contact__title">
-               CONTACTANOS
-          </h2>
-          <img class="arrow-img" src="./images/arrow.png" alt="Arrow">
-          <p class="home-contact__description">
-               ¡Escribinos por Whatsapp ó Instagram!
-          </p>
-          <p class="home-contact__description">
-               Estaremos encantados de responder todas tus inquietudes.
-          </p>
-     </section>
-     <footer class="footer-container">
-          <div class="footer-details-container">
-               <a href="#" class="footer-logo"><img class="footer-img-logo"
-                         src="https://i.ibb.co/gR8JBMV/logo-Footer.png" alt="Footer logo" border="0" /></a>
-               <div class="footer-rest">
-
-                    <div class="footer-details">
-                         <h4 class="footer-details__title">¡Conocenos!</h4>
-                         <p class="footer-details__description">Somos una pequeña empresa argentina que realizamos
-                              piezas artesanales de primera calidad, hechas con madera, hierro y cuero, las cuales harán
-                              vestir tu casa.
-                         </p>
-                    </div>
-                    <div class="footer-details">
-                         <h4 class="footer-details__title">Dónde estamos</h4>
-                         <ul class="footer-details__description">
-                              <li class="footer-details__item">San Isidro (Casa Central)</li>
-                              <li class="footer-details__item">Córdoba (Punto de venta)</li>
-                              <li class="footer-details__item">Bariloche (Punto de venta)</li>
-                         </ul>
-                    </div>
-                    <div class="footer-details">
-                         <h4 class="footer-details__title">Seguinos</h4>
-                         <div class="footer-details__links">
-                              <a href="#"><img class="footer-social" src="./images/instagram.png" alt="Instagram"></a>
-                              <a href="#"><img class="footer-social" src="./images/facebook.png" alt="Facebook"></a>
-                         </div>
-                    </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-          <div class="footer-copyright">
-               <div class="footer-copyright-center">
-                    <p class="footer-copyright__first">Copyright 2022 &copy; El Malacara Handcrafted</p>
-                    <p class="footer-copyright__second">Todos los derechos reservados</p>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
                </div>
-          </div>
-     </footer>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+               <div
+                  class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3"
+                  style="width: 18rem"
+               >
+                  <img
+                     src="https://i.ibb.co/m0fFZMv/productos01.png"
+                     class="card-img-top"
+                     alt="..."
+                  />
+                  <div class="card-body">
+                     <h5 class="card-title">Prueba</h5>
+                     <p class="card-text">
+                        Some quick example text to build on the Prueba and make
+                        up the bulk of the card's content.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
-     <!-- Bootstrap JS -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-          crossorigin="anonymous"></script>
-</body>
+      <!-- Payment & Shipment -->
+      <section class="payment-shipment-container">
+         <div class="payment-shipment__boxes shipment-box1">
+            <img src="./images/creditcard.png" alt="" />
+            <div class="shipment-info-container">
+               <h6 class="shipment-item-title">
+                  ACEPTAMOS TRANSFERENCIA BANCARIA Y MERCADO PAGO
+               </h6>
+               <p class="shipment-item-text">
+                  Consultanos por nuestro whatsapp por otros medios de pago
+                  habilitados
+               </p>
+            </div>
+         </div>
+         <div class="payment-shipment__boxes shipment-box2">
+            <img src="./images/truck.png" alt="" />
+            <div class="shipment-info-container">
+               <h6 class="shipment-item-title">ENVÍOS A TODO EL PAÍS</h6>
+            </div>
+         </div>
+         <div class="payment-shipment__boxes shipment-box3">
+            <img src="./images/medal.png" alt="" />
+            <div class="shipment-info-container">
+               <h6 class="shipment-item-title">
+                  NUESTROS PRODUCTOS TIENEN GARANTÍA DE POR VIDA
+               </h6>
+            </div>
+         </div>
+      </section>
 
+      <!-- contacto -->
+      <section class="home-contact" id="contacto">
+         <p class="question">¿Tenés alguna duda o consulta?</p>
+         <h2 class="home-contact__title">CONTACTANOS</h2>
+         <img class="arrow-img" src="./images/arrow.png" alt="Arrow" />
+         <p class="home-contact__description">
+            ¡Escribinos por Whatsapp ó Instagram!
+         </p>
+         <p class="home-contact__description">
+            Estaremos encantados de responder todas tus inquietudes.
+         </p>
+      </section>
+      <footer class="footer-container">
+         <div class="footer-details-container">
+            <a href="#" class="footer-logo"
+               ><img
+                  class="footer-img-logo"
+                  src="https://i.ibb.co/gR8JBMV/logo-Footer.png"
+                  alt="Footer logo"
+                  border="0"
+            /></a>
+            <div class="footer-rest">
+               <div class="footer-details">
+                  <h4 class="footer-details__title">¡Conocenos!</h4>
+                  <p class="footer-details__description">
+                     Somos una pequeña empresa argentina que realizamos piezas
+                     artesanales de primera calidad, hechas con madera, hierro y
+                     cuero, las cuales harán vestir tu casa.
+                  </p>
+               </div>
+               <div class="footer-details">
+                  <h4 class="footer-details__title">Dónde estamos</h4>
+                  <ul class="footer-details__description">
+                     <li class="footer-details__item">
+                        San Isidro (Casa Central)
+                     </li>
+                     <li class="footer-details__item">
+                        Córdoba (Punto de venta)
+                     </li>
+                     <li class="footer-details__item">
+                        Bariloche (Punto de venta)
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer-details">
+                  <h4 class="footer-details__title">Seguinos</h4>
+                  <div class="footer-details__links">
+                     <a href="#"
+                        ><img
+                           class="footer-social"
+                           src="./images/instagram.png"
+                           alt="Instagram"
+                     /></a>
+                     <a href="#"
+                        ><img
+                           class="footer-social"
+                           src="./images/facebook.png"
+                           alt="Facebook"
+                     /></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-copyright">
+            <div class="footer-copyright-center">
+               <p class="footer-copyright__first">
+                  Copyright 2022 &copy; El Malacara Handcrafted
+               </p>
+               <p class="footer-copyright__second">
+                  Todos los derechos reservados
+               </p>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Bootstrap JS -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"
+      ></script>
+      <script src="./js/nav_bar.js"></script>
+   </body>
 </html>
