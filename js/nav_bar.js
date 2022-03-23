@@ -24,12 +24,12 @@ const highlightMenu = () => {
       detalles.classList.add("highlight");
       productos.classList.remove("highlight");
       return;
-   } else if (window.innerWidth > 960 && scrollPos < 2000) {
+   } else if (window.innerWidth > 960 && scrollPos < 4500) {
       productos.classList.add("highlight");
       detalles.classList.remove("highlight");
       contacto.classList.remove("highlight");
       return;
-   } else if (window.innerWidth > 960 && scrollPos < 4000) {
+   } else if (window.innerWidth > 960 && scrollPos < 5500) {
       contacto.classList.add("highlight");
       productos.classList.remove("highlight");
       return;
@@ -48,7 +48,7 @@ const hideMobileMenu = () => {
    if (window.innerWidth <= 768 && menuBars) {
       menu.classList.toggle("is-active");
       menuLinks.classList.remove("active");
-   }
+   } 
 };
 
 menuLinks.addEventListener("click", hideMobileMenu);
