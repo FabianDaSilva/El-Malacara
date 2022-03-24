@@ -16,20 +16,21 @@ const highlightMenu = () => {
    const productos = document.querySelector("#producto-home");
    const contacto = document.querySelector("#contacto-home");
    let scrollPos = window.scrollY;
+   let pageHeight = document.documentElement.scrollHeight // CALCULAMOS EL ALTO DE LA PAGINA COMPLETA PARA CALCULAR EL SCROLL
    /* Obtener la posicion del scroll */
   //console.log(scrollPos);
 
    // class del menu
-   if (window.innerWidth > 960 && scrollPos < 1800) {
+   if (window.innerWidth > 960 && scrollPos < (pageHeight * 0.2)) { // CALCULAMOS EL PORCENTAJE DE LA PAGINA (20%) EN QUE SE ENCUENTRA EL SCROLL PARA QUE SE ADAPTE A DISTINTOS MONITORES
       detalles.classList.add("highlight");
       productos.classList.remove("highlight");
       return;
-   } else if (window.innerWidth > 960 && scrollPos < 4500) {
+   } else if (window.innerWidth > 960 && scrollPos < (pageHeight * 0.7)) { // SCROLL MENOR A 70% Y MAYOR A 20%
       productos.classList.add("highlight");
       detalles.classList.remove("highlight");
       contacto.classList.remove("highlight");
       return;
-   } else if (window.innerWidth > 960 && scrollPos < 5500) {
+   } else if (window.innerWidth > 960 && scrollPos < (pageHeight * 1)) { //SCROLL MENOR A 100% Y MAYOR A 70%
       contacto.classList.add("highlight");
       productos.classList.remove("highlight");
       return;
