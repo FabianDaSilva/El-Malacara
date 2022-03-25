@@ -1,0 +1,44 @@
+[
+   {
+      "id": "1",
+      "imagen": "https://i.ibb.co/m0fFZMv/productos01.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   },
+   {
+      "id": "2",
+      "imagen": "https://i.ibb.co/5KLN8wn/productos02.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   },
+   {
+      "id": "3",
+      "imagen": "https://i.ibb.co/qrGNw0J/productos03.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Cuero"
+   },
+   {
+      "id": "4",
+      "imagen": "https://i.ibb.co/X3ZNS4r/productos06.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Cuero"
+   },
+   {
+      "id": "5",
+      "imagen": "https://i.ibb.co/2d40xYH/productos05.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   },
+   {
+      "id": "6",
+      "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   }
+]
