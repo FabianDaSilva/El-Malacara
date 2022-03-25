@@ -40,5 +40,26 @@
       "nombre": "Nombre",
       "precio": "Precios",
       "categoria": "Madera"
+   },
+   {
+      "id": "7",
+      "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   },
+   {
+      "id": "8",
+      "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
+   },
+   {
+      "id": "8",
+      "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "nombre": "Nombre",
+      "precio": "Precios",
+      "categoria": "Madera"
    }
 ]

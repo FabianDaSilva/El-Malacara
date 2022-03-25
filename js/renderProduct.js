@@ -13,22 +13,17 @@ function renderizarProductos(productos, clear) {
    clear.innerHTML = "";
    for (let producto of productos) {
       clear.innerHTML += `
-      <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-3" style="width: 18rem">
-      <div class="position-relative overflow-hidden">
-      <img 
-         src="${producto.imagen}"
-         alt="productos04"
-         border="0" class="w-100"/>
-         </div>
-      <div class="card-body text-center">
-         <h5 class="card-title">${producto.nombre}</h5>
-         <p class="card-text">
-            ${producto.precio}
-         </p>
+      <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-2" id="card">
+      <div class="special-img position-relative overflow-hidden">
+          <img src="${producto.imagen}" class="w-100"></a>
       </div>
-   </div>
+      <div class="text-center">      
+          <p class="text-capitalize mt-3 mb-1">${producto.nombre}</p>
+          <span class="fw-bold d-block">${producto.precio}</span>
+         
+      </div>
+  </div>
       `;
    }
 }
 renderizarProductos();
-
