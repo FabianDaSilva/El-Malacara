@@ -19,6 +19,7 @@
       rgba(234, 234, 204, 0) 87%,
       rgba(234, 234, 204, 0) 100%
    );
+   --backgroundColor: #EAEACC;
    --textColor1: #eaeacc;
    --textColor2: #000000;
    --textColor3: #ffffff;
@@ -28,6 +29,7 @@
    --detailColor3: #e8af7e;
    --detailColor4: #bba99b;
    --detailColor5: #47a662;
+   --detailColor6: #EBAF7E;
 }
 
 /* Global */
@@ -59,7 +61,7 @@
 }
 body {
    background: rgb(255, 150, 65);
-   background: var(--backgroundGradientMobile);
+   background: var(--backgroundColor);
    max-width: 100%;
    font-family: "Red Hat Display", sans-serif;
 }
@@ -357,7 +359,7 @@ body {
 .home-contact__title__products::after {
    content: "";
    position: absolute;
-   background-color: var(--detailColor5);
+   background-color: var(--detailColor6);
    width: 95%;
    height: 56%;
    left: 0.2rem;
@@ -370,6 +372,10 @@ body {
    width: auto;
    height: auto;
    border-radius: 0px 0px 15px 15px;
+}
+
+.card:hover {
+   cursor: pointer;
 }
 
 /* Payment & Shipment */
@@ -423,7 +429,7 @@ body {
 .bullet3 {
    width: 13px;
    height: 13px;
-   background-color: var(--textColor1);
+   background-color: var(--textColor3);
    border-radius: 50%;
    border: none;
 }
@@ -592,7 +598,7 @@ footer {
    /* Body */
    body {
       background: rgb(255, 150, 65);
-      background: var(--backgroundGradient);
+      background: var(--backgroundColor);
       max-width: 100%;
       font-family: "Red Hat Display", sans-serif;
    }
@@ -769,8 +775,8 @@ footer {
       background-color: var(--detailColor2);
       width: 290px;
       height: 1.6rem;
-      top: -27.5rem;
-      left: -22.5rem;
+      top: -18.5rem;
+      left: -3rem;
    }
 
    .home-details-text__title {
@@ -860,7 +866,7 @@ footer {
    .home-contact__title__products::after {
       content: "";
       position: absolute;
-      background-color: var(--detailColor5);
+      background-color: var(--detailColor6);
       width: 95%;
       height: 56%;
       left: 0.2rem;
@@ -873,6 +879,111 @@ footer {
       height: auto;
       border-radius: 0px 0px 15px 15px;
    }
+
+
+   /* Detail View */
+   #contenedorProductos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .detailView-container {
+      height: 100%;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--textColor2);
+      gap: 2rem;
+      margin-top: 4rem;
+   }
+   .detailView-container__images {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      
+      
+   }
+   .otras-img {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .images__main-img {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .images__main-img>img {
+      width:100%;
+   }
+
+   .otra-img {
+      width: 130px;
+   }
+
+   .detailView-container__details {
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content:flex-start;
+      height: 100%;
+   }
+   .detailView-text {
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content: flex-start;
+      height: 50%;
+   }
+
+   .detailView-text__title {
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+   }
+   .detailView-text__title::after {
+      content: "";
+      position: absolute;
+      width: 90%;
+      height: 30px;
+      background-color: var(--detailColor2);
+      opacity: 50%;
+      left: -0.3rem;
+      top: 1.3rem;
+      z-index: -1;
+   }
+
+   .detailView-text__pretitle {
+      margin: 0;
+   }
+
+   .detailView-btnContainer {
+      width: 288px;
+      height: 78px;
+      background-color: var(--mainColor1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border-radius: 50px;
+      align-self: center;
+      margin-top: 5rem;
+   }
+
+   .detailView-btn {
+      text-decoration: none;
+      color: var(--linkColor1);
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0;
+   }
+
+
+
 
    /* Payment & Shipment */
 
@@ -903,8 +1014,8 @@ footer {
    .shipment-box2 {
       height: fit-content;
       padding: 6rem 2rem;
-      border-left: 2px solid var(--textColor3);
-      border-right: 2px solid var(--textColor3);
+      border-left: 2px solid var(--mainColor1);
+      border-right: 2px solid var(--mainColor1);
    }
 
    .shipment-box1 {

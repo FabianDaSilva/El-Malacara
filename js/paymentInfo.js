@@ -29,8 +29,8 @@ if (window.innerWidth < 960) {
         box3.style.display = 'none';
         
         bullet1.style.backgroundColor = "#6e2828";
-        bullet2.style.backgroundColor = "#eaeacc";
-        bullet3.style.backgroundColor = "#eaeacc";
+        bullet2.style.backgroundColor = "#ffffff";
+        bullet3.style.backgroundColor = "#ffffff";
 } else {
     bulletsContainer.style.display = 'none';
     box1.style.display = 'flex';
@@ -48,8 +48,8 @@ window.addEventListener('resize', (e) => {
         box3.style.display = 'none';
 
         bullet1.style.backgroundColor = "#6e2828";
-        bullet2.style.backgroundColor = "#eaeacc";
-        bullet3.style.backgroundColor = "#eaeacc";
+        bullet2.style.backgroundColor = "#ffffff";
+        bullet3.style.backgroundColor = "#ffffff";
     } else {
         bulletsContainer.style.display = 'none';
         box1.style.display = 'flex';
@@ -70,23 +70,23 @@ container.addEventListener('click', (e) => {
         box3.style.display = 'none';
 
         bullet1.style.backgroundColor = "#6e2828";
-        bullet2.style.backgroundColor = "#eaeacc";
-        bullet3.style.backgroundColor = "#eaeacc";
+        bullet2.style.backgroundColor = "#ffffff";
+        bullet3.style.backgroundColor = "#ffffff";
     } else if(boxTarget.classList.contains('bullet2')){
         box1.style.display = 'none';
         box2.style.display = 'flex';
         box3.style.display = 'none';
         
-        bullet1.style.backgroundColor = "#eaeacc";
+        bullet1.style.backgroundColor = "#ffffff";
         bullet2.style.backgroundColor = "#6e2828";
-        bullet3.style.backgroundColor = "#eaeacc";
+        bullet3.style.backgroundColor = "#ffffff";
     } else if(boxTarget.classList.contains('bullet3')){
         box1.style.display = 'none';
         box2.style.display = 'none';
         box3.style.display = 'flex';
 
-        bullet1.style.backgroundColor = "#eaeacc";
-        bullet2.style.backgroundColor = "#eaeacc";
+        bullet1.style.backgroundColor = "#ffffff";
+        bullet2.style.backgroundColor = "#ffffff";
         bullet3.style.backgroundColor = "#6e2828";
     }
     
@@ -125,16 +125,16 @@ function swiped() {
             box2.style.display = 'flex';
             box3.style.display = 'none';
     
-            bullet1.style.backgroundColor = "#eaeacc";
+            bullet1.style.backgroundColor = "#ffffff";
             bullet2.style.backgroundColor = "#6e2828";
-            bullet3.style.backgroundColor = "#eaeacc";
+            bullet3.style.backgroundColor = "#ffffff";
         } else if(box2.style.display == 'flex') {
             box1.style.display = 'none';
             box2.style.display = 'none';
             box3.style.display = 'flex';
             
-            bullet1.style.backgroundColor = "#eaeacc";
-            bullet2.style.backgroundColor = "#eaeacc";
+            bullet1.style.backgroundColor = "#ffffff";
+            bullet2.style.backgroundColor = "#ffffff";
             bullet3.style.backgroundColor = "#6e2828";
         } else if(box3.style.display == 'flex') {
             box1.style.display = 'flex';
@@ -142,8 +142,8 @@ function swiped() {
             box3.style.display = 'none';
             
             bullet1.style.backgroundColor = "#6e2828";
-            bullet2.style.backgroundColor = "#eaeacc";
-            bullet3.style.backgroundColor = "#eaeacc";
+            bullet2.style.backgroundColor = "#ffffff";
+            bullet3.style.backgroundColor = "#ffffff";
         }    
     } else if(lastElement > touchListX[0]){
         if(box1.style.display == 'flex') {
@@ -151,8 +151,8 @@ function swiped() {
             box2.style.display = 'none';
             box3.style.display = 'flex';
     
-            bullet1.style.backgroundColor = "#eaeacc";
-            bullet2.style.backgroundColor = "#eaeacc";
+            bullet1.style.backgroundColor = "#ffffff";
+            bullet2.style.backgroundColor = "#ffffff";
             bullet3.style.backgroundColor = "#6e2828";
         } else if(box2.style.display == 'flex') {
             box1.style.display = 'flex';
@@ -160,16 +160,16 @@ function swiped() {
             box3.style.display = 'none';
             
             bullet1.style.backgroundColor = "#6e2828";
-            bullet2.style.backgroundColor = "#eaeacc";
-            bullet3.style.backgroundColor = "#eaeacc";
+            bullet2.style.backgroundColor = "#ffffff";
+            bullet3.style.backgroundColor = "#ffffff";
         } else if(box3.style.display == 'flex') {
             box1.style.display = 'none';
             box2.style.display = 'flex';
             box3.style.display = 'none';
             
-            bullet1.style.backgroundColor = "#eaeacc";
+            bullet1.style.backgroundColor = "#ffffff";
             bullet2.style.backgroundColor = "#6e2828";
-            bullet3.style.backgroundColor = "#eaeacc";
+            bullet3.style.backgroundColor = "#ffffff";
         }    
     }
 }

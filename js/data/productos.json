@@ -2,64 +2,109 @@
    {
       "id": "1",
       "imagen": "https://i.ibb.co/m0fFZMv/productos01.png",
+      "otrasImgs":["https://i.ibb.co/m0fFZMv/productos01.png","https://i.ibb.co/m0fFZMv/productos01.png","https://i.ibb.co/m0fFZMv/productos01.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Madera",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "2",
       "imagen": "https://i.ibb.co/5KLN8wn/productos02.png",
-      "nombre": "Nombre",
+      "otrasImgs":["https://i.ibb.co/5KLN8wn/productos02.png","https://i.ibb.co/5KLN8wn/productos02.png","https://i.ibb.co/5KLN8wn/productos02.png"],
+      "nombre": "comedor",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Madera",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "3",
       "imagen": "https://i.ibb.co/qrGNw0J/productos03.png",
+      "otrasImgs":["https://i.ibb.co/qrGNw0J/productos03.png","https://i.ibb.co/qrGNw0J/productos03.png","https://i.ibb.co/qrGNw0J/productos03.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Cuero"
+      "categoria": ["Madera", "Cuero"],
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "4",
       "imagen": "https://i.ibb.co/X3ZNS4r/productos06.png",
+      "otrasImgs":["https://i.ibb.co/X3ZNS4r/productos06.png","https://i.ibb.co/X3ZNS4r/productos06.png","https://i.ibb.co/X3ZNS4r/productos06.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Cuero"
+      "categoria": ["Cuero", "Metal"],
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "5",
       "imagen": "https://i.ibb.co/2d40xYH/productos05.png",
+      "otrasImgs":["https://i.ibb.co/2d40xYH/productos05.png","https://i.ibb.co/2d40xYH/productos05.png","https://i.ibb.co/2d40xYH/productos05.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Madera",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "6",
       "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "otrasImgs":["https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Metal",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "7",
       "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "otrasImgs":["https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Metal",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "8",
       "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "otrasImgs":["https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Metal",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    },
    {
       "id": "8",
       "imagen": "https://i.ibb.co/Cn5SFjf/productos04.png",
+      "otrasImgs":["https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png","https://i.ibb.co/Cn5SFjf/productos04.png"],
       "nombre": "Nombre",
+      "tipo": "Silla",
       "precio": "Precios",
-      "categoria": "Madera"
+      "categoria": "Metal",
+      "medidas": ["Asiento: 43x43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
+      "madeOf": "Hechas en madera PETRIBI maciza, estacionada, protegida con laca al agua",
+      "descripcion": "Cuero trenzado a elección"
    }
 ]

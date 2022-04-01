@@ -37,9 +37,9 @@
          </ul>
       </div>
    </nav>
-
+   
    <!-- Slide -->
-   <header>
+   <header class="SPA">
       <section class="section-slide">
          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
             data-bs-interval="false">
@@ -83,7 +83,7 @@
    </a>
 
    <!-- Detalles -->
-   <section class="home-details-allcontainer" id="detalles">
+   <section class="home-details-allcontainer SPA" id="detalles">
       <div class="home-details-container">
          <div class="home-details-text">
             <h3 class="home-details-text__pretitle">Estamos en los</h3>
@@ -124,6 +124,8 @@
 
                 <span type="button" class="btn m-2 text-dark" id="filtroCuero">Cuero</span>
 
+                <span type="button" class="btn m-2 text-dark" id="filtroMetal">Metal</span>
+
                 
             </div>
          <div class="mt-4 row gx-0 gy-3 justify-content-around container" id="contenedorProductos">
@@ -162,7 +164,7 @@
    </section>
 
    <!-- contacto -->
-   <section class="home-contact" id="contacto">
+   <section class="home-contact SPA" id="contacto">
       <p class="question">¿Tenés alguna duda o consulta?</p>
       <h2 class="home-contact__title">CONTACTANOS</h2>
       <img class="arrow-img" src="./images/arrow.png" alt="Arrow" />
@@ -231,11 +233,12 @@ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="ano
       <!-- NavBar -->
    <script src="./js/nav_bar.js"></script>
    <!-- PaymentInfo -->
- <script src="./js/paymentInfo.js"></script> 
-   <!-- RenderProductos -->
-   <script src="./js/renderProduct.js"></script>
+   <script src="./js/paymentInfo.js"></script> 
+   <!-- RenderProductos
+   <script type="module" src="./js/renderProduct.js"></script> -->
    <!-- Filter -->
-   <script src="./js/filter.js"></script>
+   <script type="module" src="./js/filter.js"></script>
+
 </body>
 
 </html>

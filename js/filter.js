@@ -1,3 +1,5 @@
+import { productos, renderizarProductos } from "../js/renderProduct.js"
+
 //Filtros de categorias
 $("#filtroTodos").click((e) => {
    e.preventDefault();
@@ -6,12 +8,18 @@ $("#filtroTodos").click((e) => {
 
 $("#filtroCuero").click((e) => {
    e.preventDefault();
-   const filterCuero = productos.filter((e) => e.categoria == "Cuero");
+   const filterCuero = productos.filter((e) => e.categoria.includes("Cuero"));
    renderizarProductos(filterCuero, contenedorProductos);
 });
 
 $("#filtroMadera").click((e) => {
    e.preventDefault();
-   const filterCuero = productos.filter((e) => e.categoria == "Madera");
-   renderizarProductos(filterCuero, contenedorProductos);
+   const filterMadera = productos.filter((e) => e.categoria.includes("Madera"));
+   renderizarProductos(filterMadera, contenedorProductos);
+});
+
+$("#filtroMetal").click((e) => {
+   e.preventDefault();
+   const filterMetal = productos.filter((e) => e.categoria.includes("Metal"));
+   renderizarProductos(filterMetal, contenedorProductos);
 });
