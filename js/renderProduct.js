@@ -3,13 +3,13 @@ import {renderDetailView, SPAelements} from "../js/detailView.js"
 
 const contenedorProductos = $("#contenedorProductos")[0];
 const URLproductos = "../js/data/productos.json";
-//console.log(contenedorProductos);
+
 //Llamo el Json
 let productos = "";
 $.getJSON(URLproductos, function (arrayObjetos) {
    productos = arrayObjetos;
    renderizarProductos(arrayObjetos, contenedorProductos);
-   //console.log(productos);
+
 });
 //Renderizo los productos
 function renderizarProductos(productos, clear) {
@@ -44,8 +44,6 @@ function renderizarProductos(productos, clear) {
         })
     }
 }
-//renderizarProductos();
-
 
 
 export { productos, renderizarProductos }

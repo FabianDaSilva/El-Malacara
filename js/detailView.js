@@ -1,7 +1,6 @@
 import {productos} from "./renderProduct.js"
 
 const SPAelements = document.getElementsByClassName("SPA")
-const btn = ""
 
 const renderDetailView = (contenedorProductos, producto) => {
 
@@ -41,7 +40,7 @@ const renderDetailView = (contenedorProductos, producto) => {
                
                </div>
                
-               <a href=# class="detailView-btnContainer"><p class="detailView-btn">CONSULTAR PRECIO</p></a>
+               <a href="https://api.whatsapp.com/send?phone=+541128376428&text=%C2%A1Hola!%20Como%20estas?%20Queria%20consultarle%20por%20${producto.tipo} ${producto.nombre}😄😄" class="detailView-btnContainer"><p class="detailView-btn">CONSULTAR PRECIO</p></a>
                
          </div>
       </div>
