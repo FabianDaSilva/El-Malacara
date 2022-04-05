@@ -1,3 +1,4 @@
+import { changeImage } from "./changeImage.js";
 import {productos} from "./renderProduct.js"
 
 const SPAelements = document.getElementsByClassName("SPA")
@@ -13,12 +14,12 @@ const renderDetailView = (contenedorProductos, producto) => {
       <div class="detailView-container">
          <div class="detailView-container__images">
             <div class="images__main-img">
-               <img class="img-${producto.nombre}-${producto.id}" src="${producto.imagen}" alt="" />
+               <img class="img-${producto.nombre}-${producto.id}" id="mainImg" src="${producto.imagen}" alt="" />
             </div>
             <div class="${producto.nombre}-${producto.id} otras-img">
-               <img class="otra-img num1" src="${producto.otrasImgs[0]}" alt="" />
-               <img class="otra-img num2" src="${producto.otrasImgs[1]}" alt="" />
-               <img class="otra-img num3" src="${producto.otrasImgs[2]}" alt="" />
+               <a href='#'><img class="otra-img num1" id="Img1" src="${producto.otrasImgs[0]}" alt="" /></a>
+               <a href='#'><img class="otra-img num2" id="Img2" src="${producto.otrasImgs[1]}" alt="" /></a>
+               <a href='#'><img class="otra-img num3" id="Img3" src="${producto.otrasImgs[2]}" alt="" /></a>
             </div>
          </div>
          <div class="detailView-container__details">
@@ -45,7 +46,22 @@ const renderDetailView = (contenedorProductos, producto) => {
          </div>
       </div>
    `;
+   const allImgs = document.querySelectorAll(".otra-img");
+
    
+
+   for(let img of allImgs) {
+
+      img.addEventListener("click", (e)=> {
+         let clickedImage = e.target
+
+         changeImage(contenedorProductos, clickedImage, producto)
+      })
+    }
+
+
+
+
 }
 
 //data-id="prod-${producto.id}" id="card-${producto.id}"
