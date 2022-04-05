@@ -18,7 +18,6 @@ const highlightMenu = () => {
    let scrollPos = window.scrollY;
    let pageHeight = document.documentElement.scrollHeight // CALCULAMOS EL ALTO DE LA PAGINA COMPLETA PARA CALCULAR EL SCROLL
    /* Obtener la posicion del scroll */
-  //console.log(scrollPos);
 
    // class del menu
    if (window.innerWidth > 960 && scrollPos < (pageHeight * 0.2)) { // CALCULAMOS EL PORCENTAJE DE LA PAGINA (20%) EN QUE SE ENCUENTRA EL SCROLL PARA QUE SE ADAPTE A DISTINTOS MONITORES

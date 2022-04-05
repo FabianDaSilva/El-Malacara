@@ -1455,11 +1455,7 @@ footer {
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
    /* Slide */
-   .container__text {
-      
-      
-      
-   }
+  
    .text-container {
       position: relative;
    }
