@@ -2,7 +2,7 @@
    {
       "id": "1",
       "imagen": "../../images/products/1_silla_comedor/reducida.jpg",
-      "otrasImgs":["../../images/products/1_silla_comedor/01.jpg","../../images/products/1_silla_comedor/02.jpg","../../images/products/1_silla_comedor/03.jpg","../../images/products/1_silla_comedor/04.jpg"],
+      "otrasImgs":["../../images/products/1_silla_comedor/02.jpg","../../images/products/1_silla_comedor/03.jpg","../../images/products/1_silla_comedor/04.jpg"],
       "nombre": "COMEDOR",
       "tipo": "Silla",
       "precio": "Precios",
@@ -10,9 +10,9 @@
       "medidas": ["Asiento: 43 x 43cm", "Del asiento al piso: 45cm", "Altura: 84cm"],
       "madeOf": "Hechas en madera <span class='strongText'>PETRIBI</span> maciza, estacionada, protegida con laca al agua",
       "descripcion": "Cuero trenzado a elección",
-      "cardName": "Silla Comedor",
+      "cardName": "Silla COMEDOR",
       "cardMade": "MADERA PETRIBÍ / PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "2",
@@ -22,17 +22,17 @@
       "tipo": "Silla",
       "precio": "Precios",
       "categoria": "Madera",
-      "medidas": ["Asiento: 50 x 50cm","Respaldo: 50x35cm" ,"Patas: 32cm <br> Altura: 65 a 75cm"],
+      "medidas": ["Asiento: 50 x 50cm","Respaldo: 50x35cm" ,"Patas: 32cm", "Altura: 65 a 75cm"],
       "madeOf": "Hechas en madera <span class='strongText'>PETRIBÍ/PARÍSO</span> maciza, estacionada, protegida con laca al agua",
       "descripcion": "Cuero trenzado a elección",
-      "cardName": "Silla Matera",
+      "cardName": "Silla MATERA",
       "cardMade": "MADERA PETRIBÍ / PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "3",
-      "imagen": "https://i.ibb.co/qrGNw0J/productos03.png",
-      "otrasImgs":["../../images/products/3_silla_gaucho/1.jpg","../../images/products/3_silla_gaucho/2.jpg","../../images/products/3_silla_gaucho/3.jpg","../../images/products/3_silla_gaucho/4.jpg"],
+      "imagen": "../../images/products/3_silla_gaucho/1.jpg",
+      "otrasImgs":["../../images/products/3_silla_gaucho/2.jpg","../../images/products/3_silla_gaucho/3.jpg","../../images/products/3_silla_gaucho/4.jpg"],
       "nombre": "GAUCHO",
       "tipo": "Silla",
       "precio": "Precios",
@@ -40,14 +40,14 @@
       "medidas": ["Altura (hasta asiento): 51cm", "Asiento: 43 x 38cm","Respaldo:" ],
       "madeOf": "Hechas en <span class='strongText'>hierro pintado negra al horno</span>. El asiento puede venir con remaches",
       "descripcion": "Cuero trenzado a elección",
-      "cardName": "Silla Gaucho",
+      "cardName": "Silla GAUCHO",
       "cardMade": "HIERRO PINTADO EN NEGRO",
-      "cardChoise": "Color a elección"
+      "cardChoice": "Color a elección"
    },
    {
       "id": "4",
       "imagen": "../../images/products/4_banqueta_pampa/reducida.jpg",
-      "otrasImgs":["../../images/products/4_banqueta_pampa/1.jpg","../../images/products/4_banqueta_pampa/2.jpg","../../images/products/4_banqueta_pampa/3.jpg","../../images/products/4_banqueta_pampa/4.jpg"],
+      "otrasImgs":["../../images/products/4_banqueta_pampa/2.jpg","../../images/products/4_banqueta_pampa/3.jpg","../../images/products/4_banqueta_pampa/4.jpg"],
       "nombre": "PAMPA",
       "tipo": "Banqueta",
       "precio": "Precios",
@@ -57,12 +57,12 @@
       "descripcion": "Cuero a elección",
       "cardName": "Banqueta PAMPA",
       "cardMade": "MADERA PETRIBÍ",
-      "cardChoise": "Cuero a elección"
+      "cardChoice": "Cuero a elección"
    },
    {
       "id": "5",
       "imagen": "../../images/products/5_banqueta_gaucho/reducida.jpg",
-      "otrasImgs":["../../images/products/5_banqueta_gaucho/1.jpg","../../images/products/5_banqueta_gaucho/2.jpg","../../images/products/5_banqueta_gaucho/3.jpg","../../images/products/5_banqueta_gaucho/4.jpg"],
+      "otrasImgs":["../../images/products/5_banqueta_gaucho/2.jpg","../../images/products/5_banqueta_gaucho/3.jpg","../../images/products/5_banqueta_gaucho/4.jpg"],
       "nombre": "GAUCHO",
       "tipo": "Banqueta",
       "precio": "Precios",
@@ -70,14 +70,14 @@
       "medidas": ["Asiento: 43 x 38cm", "Altura: 79cm", " "],
       "madeOf": "Hecha en hierro pintada negra al horno.<br> El asiento puede venir con remaches",
       "descripcion": "Cuero a elección",
-      "cardName": "Silla Comedor",
+      "cardName": "Silla COMEDOR",
       "cardMade": "MADERA PETRIBÍ / PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "6",
       "imagen": "../../images/products/6_banquito_pampa/reducida.jpg",
-      "otrasImgs":["../../images/products/6_banquito_pampa/1.jpg","../../images/products/6_banquito_pampa/2.jpg","../../images/products/6_banquito_pampa/3.jpg","../../images/products/6_banquito_pampa/4.jpg"],
+      "otrasImgs":["../../images/products/6_banquito_pampa/2.jpg","../../images/products/6_banquito_pampa/3.jpg","../../images/products/6_banquito_pampa/4.jpg"],
       "nombre": "PAMPA",
       "tipo": "Banquito",
       "precio": "Precios",
@@ -87,7 +87,7 @@
       "descripcion": "Cuero trenzado a elección",
       "cardName": "Banquito PAMPA",
       "cardMade": "MADERA PETRIBÍ / PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "7",
@@ -102,7 +102,7 @@
       "descripcion": "Cuero trenzado a elección",      
       "cardName": "Sillón TRIPOLINA",
       "cardMade": " ",
-      "cardChoise": "Cuero a elección"
+      "cardChoice": "Cuero a elección"
    },
    {
       "id": "8",
@@ -117,7 +117,7 @@
       "descripcion": "Cueros a elección",      
       "cardName": "Sillón BKF",
       "cardMade": "HIERRO PINTADO",
-      "cardChoise": "Color cuero a elección"
+      "cardChoice": "Color cuero a elección"
    },
    {
       "id": "9",
@@ -132,7 +132,7 @@
       "descripcion": "Cuero a elección",      
       "cardName": "Sillón COCO",
       "cardMade": "HIERRO PINTADO",
-      "cardChoise": "Color cuero a elección"
+      "cardChoice": "Color cuero a elección"
    },
    {
       "id": "10",
@@ -147,12 +147,12 @@
       "descripcion": "Cuero trenzado a elección",      
       "cardName": "Sillón PERITO MORENO",
       "cardMade": "MADERA PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "11",
       "imagen": "../../images/products/11_sillon_honguito/reducida.jpg",
-      "otrasImgs":["../../images/products/11_sillon_honguito/2.jpg","../../images/products/11_sillon_honguito/3.jpg","../../images/products/11_sillon_honguito/4.jpg", "../../images/products/11_sillon_honguito/5.jpg"],
+      "otrasImgs":["../../images/products/11_sillon_honguito/3.jpg","../../images/products/11_sillon_honguito/4.jpg", "../../images/products/11_sillon_honguito/2.jpg"],
       "nombre": "PERITO MORENO",
       "tipo": "Silla",
       "precio": "Precios",
@@ -162,7 +162,7 @@
       "descripcion": "Cuero a elección",      
       "cardName": "Sillón HONGUITO",
       "cardMade": "HIERRO PINTADO EN NEGRO",
-      "cardChoise": "Color cuero a elección"
+      "cardChoice": "Color cuero a elección"
    },
    {
       "id": "12",
@@ -177,7 +177,7 @@
       "descripcion": "Cuero trenzado a elección",      
       "cardName": "Sillón CALANDRA",
       "cardMade": "HIERRO PINTADO EN NEGRO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "13",
@@ -192,7 +192,7 @@
       "descripcion": "Cuero trenzado a elección",      
       "cardName": "Sillón PIET",
       "cardMade": "MADERA PARAÍSO",
-      "cardChoise": "Cuero trenzado a elección"
+      "cardChoice": "Cuero trenzado a elección"
    },
    {
       "id": "14",
@@ -202,11 +202,11 @@
       "tipo": "Silla",
       "precio": "Precios",
       "categoria": "Todos",
-      "medidas": ["Asieto: 70 x 70 cm ", " ", " "],
+      "medidas": ["Asieto: 70 x 70 cm "],
       "madeOf": "El diseñador Marcel Breuer creó la silla de tubos de acero <br> en la Bauhaus de Dessau bajo la dirección de Walter Gropius. Un <br> ejemplo perfecto del estilo sobrio de la modernidad clásica",      
       "cardName": "Sillón WASALLY",
-      "cardMade": " ",
-      "cardChoise": "Cuero a elección"
+      "cardMade": "",
+      "cardChoice": "Cuero a elección"
    },
    {
       "id": "15",
@@ -216,11 +216,11 @@
       "tipo": "Pie de",
       "precio": "Precios",
       "categoria": "Madera",
-      "medidas": ["Altura: 45cm ", "Ancho: 40cm", " "],
+      "medidas": ["Altura: 45cm ", "Ancho: 40cm"],
       "madeOf": "Hecha en madera de <span class='strongText'>PETRIÍ/PARAÍSO</span> maciza estacionada, protegida con laca al agua",
       "descripcion": "Cuero trenzado a elección",      
       "cardName": "PIE DE CAMA",
       "cardMade": "PETRIÍ/PARAÍSO",
-      "cardChoise": " "
+      "cardChoice": ""
    }
 ]

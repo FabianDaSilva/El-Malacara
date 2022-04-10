@@ -19,17 +19,17 @@ function renderizarProductos(productos, clear) {
     clear.innerHTML = "";
     for (let producto of productos) {
         clear.innerHTML += `
-        <div class="card col-md-6 col-lg-4 col-xl-3 p-2 m-2" data-id=${producto.id} id="card-${producto.id}">
-        <div class="special-img position-relative overflow-hidden">
-            <a><img src="${producto.imagen}" class="w-100
-            "></a>
-        </div>
-        <div class="text-center">      
-            <p class="text-capitalize mt-3 mb-1">${producto.cardName}</p>
-            <p class="text-capitalize mt-3 mb-1">${producto.cardMade}</p>
-            <p class="text-capitalize mt-3 mb-1">${producto.cardChoise}</p>
-            
-        </div>
+        <div class="card col-md-6 col-lg-4 col-xl-3 p-2 " data-id=${producto.id} id="card-${producto.id}">
+            <div class="special-img position-relative overflow-hidden">
+                <a><img src="${producto.imagen}" class="w-100
+                "></a>
+            </div>
+            <div class="text-center">      
+                <p class="text-capitalize mt-3 mb-1 card-name">${producto.cardName}</p>
+                <p class="text-capitalize mt-3 mb-1">${producto.cardMade}</p>
+                <p class="text-capitalize mt-3 mb-1">${producto.cardChoice}</p>
+                
+            </div>
         </div>
       `;
         

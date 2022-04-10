@@ -1,4 +1,5 @@
 import { changeImage } from "./changeImage.js";
+import { liItems } from "./data/medidasList.js";
 import {productos} from "./renderProduct.js"
 
 const SPAelements = document.getElementsByClassName("SPA")
@@ -31,9 +32,7 @@ const renderDetailView = (contenedorProductos, producto) => {
                </p>
                <h6 class="detailView-text__medidas">MEDIDAS</h6>
                <ul>
-                  <li class='medidas-item-list'>${producto.medidas[0]}</li>
-                  <li class='medidas-item-list'>${producto.medidas[1]}</li>
-                  <li class='medidas-item-list'>${producto.medidas[2]}</li>
+                  ${liItems(producto)}
                </ul>
                <p class="detailView-text__paragraph paragraph2">
                ${producto.descripcion}
