@@ -6,11 +6,6 @@ $("#filtroTodos").click((e) => {
    renderizarProductos(productos, contenedorProductos);
 });
 
-$("#filtroCuero").click((e) => {
-   e.preventDefault();
-   const filterCuero = productos.filter((e) => e.categoria.includes("Cuero"));
-   renderizarProductos(filterCuero, contenedorProductos);
-});
 
 $("#filtroMadera").click((e) => {
    e.preventDefault();
@@ -18,8 +13,8 @@ $("#filtroMadera").click((e) => {
    renderizarProductos(filterMadera, contenedorProductos);
 });
 
-$("#filtroMetal").click((e) => {
+$("#filtroHierro").click((e) => {
    e.preventDefault();
-   const filterMetal = productos.filter((e) => e.categoria.includes("Metal"));
-   renderizarProductos(filterMetal, contenedorProductos);
+   const filterHierro = productos.filter((e) => e.categoria.includes("Hierro"));
+   renderizarProductos(filterHierro, contenedorProductos);
 });

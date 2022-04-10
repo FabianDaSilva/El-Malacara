@@ -5,11 +5,16 @@
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="keywords"
+   content="Artesanal, Sillas, Banquetas, Cuero,Cuero trenzado">
+   <meta name="description"
+        content="Somos una pequeña empresa Argentina que realiza piezas artesanales de primera calidad, hechas con madera, hierro y cuero. Para altamente duraderos y con mucho estilo">
    <!-- Bootstrap -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
    <!-- Css -->
    <link rel="stylesheet" href="./css/style.css" />
+   <link rel="icon" href="https://i.ibb.co/gt5GSxs/icon-logo.png">
    <title>El Malacara</title>
 </head>
 
@@ -39,37 +44,38 @@
       </div>
    </nav>   
    <!-- Slide --> 
+   <!-- carousel rompe el slide responsive -->
       <header class="carousel slide SPA"> 
          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
             data-bs-interval="false">
             <div class="carousel-inner">
                <div class="carousel-item active">
-                  <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img d-block w-100" />
+                  <img src="./images/slide/slide_01.jpg" alt="slide" border="0" class="slide-img d-block w-100" />
                </div>
                <div class="carousel-item">
-                  <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img d-block w-100" />
+                  <img src="./images/slide/slide_02.jpg" alt="slide" border="0" class="slide-img d-block w-100" />
                </div>
                <div class="carousel-item">
-                  <img src="https://i.ibb.co/kGYvbYy/slide.png" alt="slide" border="0" class="slide-img d-block w-100" />
+                  <img src="./images/slide/slide_03.jpg" alt="slide" border="0" class="slide-img d-block w-100" />
                </div>
                <div class="container__text text-start">
                   <h2 class="text-container text-white">MADERA + CUERO</h2>
                   
               </div> 
                <div class="container__btn text-center ">
-                  <button class="btn__products btn btn-primary mt-3"> Ver Productos</button>
+                  <a href="#productos_view"><button class="btn__products btn btn-primary mt-3" > Ver Productos</button></a>
               </div> 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
                data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true">
-                  <img src="./images/back.png" class="img-arrow"/>     
+                  <img src="./images/icons/back.png" class="img-arrow"/>     
                </span>
                <span class="visually-hidden"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
                data-bs-slide="next">
-               <img src="./images/next.png"  class="img-arrow"/>              
+               <img src="./images/icons/next.png"  class="img-arrow"/>              
             </button>
          </div>
          <span class="SPA"/>
@@ -106,7 +112,7 @@
    </section>
 
    <!-- Productos -->
-   <section class="home-product container" id="productos">
+   <section class="home-product container" id="productos_view">
       <div class="container-products">
          <div class="container_title_products">
             <div class="container-title">
@@ -121,9 +127,7 @@
 
                 <span type="button" class="btn m-2 text-dark" id="filtroMadera">Madera</span>
 
-                <span type="button" class="btn m-2 text-dark" id="filtroCuero">Cuero</span>
-
-                <span type="button" class="btn m-2 text-dark" id="filtroMetal">Metal</span>
+                <span type="button" class="btn m-2 text-dark" id="filtroHierro">Hierro</span>
 
                 
             </div>
@@ -135,7 +139,7 @@
    <!-- Payment & Shipment -->
    <section class="payment-shipment-container">
       <div class="payment-shipment__boxes shipment-box1">
-         <img class="payment-shipment__boxes-img" src="./images/creditcard.png" alt="" />
+         <img class="payment-shipment__boxes-img" src="./images/icons/creditcard.png" alt="" />
          <div class="shipment-info-container">
             <h6 class="shipment-item-title">
                ACEPTAMOS TRANSFERENCIA BANCARIA Y MERCADO PAGO
@@ -147,15 +151,15 @@
          </div>
       </div>
       <div class="payment-shipment__boxes shipment-box2">
-         <img class="payment-shipment__boxes-img" src="./images/truck.png" alt="" />
+         <img class="payment-shipment__boxes-img" src="./images/icons/truck.png" alt="" />
          <div class="shipment-info-container">
             <h6 class="shipment-item-title">ENVÍOS A TODO EL PAÍS</h6>
          </div>
       </div>
       <div class="payment-shipment__boxes shipment-box3">
-         <img class="payment-shipment__boxes-img" src="./images/medal.png" alt="" />
+         <img class="payment-shipment__boxes-img" src="./images/icons/medal.png" alt="" />
          <div class="shipment-info-container">
-            <h6 class="shipment-item-title">
+            <h6 class="shipment-item-title" id="#product">
                NUESTROS PRODUCTOS TIENEN GARANTÍA DE POR VIDA
             </h6>
          </div>
@@ -166,7 +170,7 @@
    <section class="home-contact SPA" id="contacto">
       <p class="question">¿Tenés alguna duda o consulta?</p>
       <h2 class="home-contact__title">CONTACTANOS</h2>
-      <img class="arrow-img" src="./images/arrow.png" alt="Arrow" />
+      <img class="arrow-img" src="./images/icons/arrow.png" alt="Arrow" />
       <p class="home-contact__description">
          ¡Escribinos por Whatsapp o Instagram!
       </p>
@@ -204,8 +208,8 @@
             <div class="footer-details">
                <h4 class="footer-details__title">Seguinos</h4>
                <div class="footer-details__links">
-                  <a href="#"><img class="footer-social" src="./images/instagram.png" alt="Instagram" /></a>
-                  <a href="#"><img class="footer-social" src="./images/facebook.png" alt="Facebook" /></a>
+                  <a href="#"><img class="footer-social" src="./images/icons/instagram.png" alt="Instagram" /></a>
+                  <a href="#"><img class="footer-social" src="./images/icons/facebook.png" alt="Facebook" /></a>
                </div>
             </div>
          </div>
