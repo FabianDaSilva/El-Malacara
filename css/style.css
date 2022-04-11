@@ -469,8 +469,8 @@ body {
    z-index: -1;
 }
 .card {
-   padding: 0px 0px 8px 0px !important;
-   background-color: var(--detailColor1);
+   padding: 0px !important;
+   
    width: auto;
    height: auto;
    border-radius: 0px 0px 15px 15px;
@@ -478,6 +478,13 @@ body {
 
 .card:hover {
    cursor: pointer;
+}
+
+.text-center {
+   background-color: var(--detailColor1);
+   
+   padding-bottom: 10px;
+   border-radius: 0px 0px 15px 15px;
 }
 
 /* Detail View */
@@ -986,15 +993,16 @@ footer {
       align-items: center;
       z-index: 1;
       position: relative;
-      top: -30%;
+      top: 70%;
    }
    .btn__products {
       display: flex;
-      font-size: 22px;
+      font-size: 26px;
       color: var(--mainColor1) !important;
       background-color: var(--backgroundColor) !important;
       font-weight: 700;
       margin: 0 !important;
+      border: none !important;
    }
    .btn__products:hover,
    .btn__products:focus {
@@ -1034,7 +1042,7 @@ footer {
       border-left: 12px solid var(--detailColor1);
       padding-left: 26px;
       padding-top: 2rem;
-      margin: 2rem 4rem;
+      margin: 2rem 14rem;
    }
 
    .home-details-text {
@@ -1194,13 +1202,14 @@ footer {
       z-index: -1;
    }
    .card {
-      padding: 0px 0px 8px 0px !important;
-      background-color: var(--detailColor1);
+      padding: 0px !important;
+      
       height: auto;
       border-radius: 0px 0px 15px 15px;
       width: 25%;
       max-width: 25%;
       transition: all 0.5s ease;
+      border: none!important;
    }
 
    .card:hover {
@@ -1214,6 +1223,7 @@ footer {
 
    .text-center {
       height: 130px;
+      padding-bottom: 10px;
    }
 
    /* Detail View */
@@ -1527,8 +1537,15 @@ footer {
       display: flex;
       justify-content: space-between;
    }
+
+
+
    .footer-social {
       width: 2.2rem;
+   }
+
+   .footer-social:hover, .footer-social:focus {
+      filter: saturate(4);
    }
 }
 
@@ -1563,7 +1580,7 @@ footer {
       border-left: 12px solid var(--detailColor1);
       padding-left: 26px;
       padding-top: 2rem;
-      margin: 6rem 4rem;
+      margin: 6rem 14rem;
    }
 
    .home-details-text {

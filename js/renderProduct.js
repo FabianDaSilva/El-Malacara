@@ -26,8 +26,8 @@ function renderizarProductos(productos, clear) {
             </div>
             <div class="text-center">      
                 <p class="text-capitalize mt-3 mb-1 card-name">${producto.cardName}</p>
-                <p class="text-capitalize mt-3 mb-1">${producto.cardMade}</p>
-                <p class="text-capitalize mt-3 mb-1">${producto.cardChoice}</p>
+                <p class="text-capitalize mt-2 mb-1">${producto.cardMade}</p>
+                <p class="text-capitalize mt-2 mb-4">${producto.cardChoice}</p>
                 
             </div>
         </div>
