@@ -514,6 +514,7 @@ body {
 
 .otras-img a {
    height: 100%;
+   width: 30%;
 }
 
 .images__main-img {
@@ -908,7 +909,8 @@ footer {
       justify-content: center;
       padding: 0 10px;
       text-decoration: none;
-      max-height: max-content;
+      height: 67px;
+      /*max-height: max-content;*/
       transition: all 0.3s ease;
    }
 
@@ -923,12 +925,14 @@ footer {
    .navbar__links:hover {
       color: var(--linkColor1);
       transition: all 0.3s ease;
+      border-bottom: 10px solid var(--linkColor1);
+      height: 67px;
    }
 
    /* Js efecto navbar */
    .highlight {
       height: 100%;
-      border-bottom: 10px solid var(--linkColor1);
+      border-bottom: 10px solid var(--textColor1);
       max-height: calc(inherit - 10px);
    }
 

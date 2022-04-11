@@ -1,13 +1,13 @@
 
 
 const liItems = (product) => {
+    let medidas = ``
     if(product.medidas.length > 0) {
         for(let medida of product.medidas) {
-            return `<li class='medidas-item-list'>${medida}</li>`
+            medidas += `<li class='medidas-item-list'>${medida}</li>`
         }
-    } else {
-        return ""
-    }
+    } 
+    return medidas
 }
 
 const hasMedidas = (product) => {

@@ -1,4 +1,4 @@
-
+import { hasMedidas, liItems } from "./data/medidasList.js"
 
 
 function changeImage(contenedorProductos, clickedImage, producto) {
@@ -39,11 +39,9 @@ function changeImage(contenedorProductos, clickedImage, producto) {
                <p class="detailView-text__paragraph paragraph1">
                ${producto.madeOf}
                </p>
-               <h6 class="detailView-text__medidas">MEDIDAS</h6>
+               ${hasMedidas(producto)}
                <ul>
-                  <li class='medidas-item-list'>${producto.medidas[0]}</li>
-                  <li class='medidas-item-list'>${producto.medidas[1]}</li>
-                  <li class='medidas-item-list'>${producto.medidas[2]}</li>
+                  ${liItems(producto)}
                </ul>
                <p class="detailView-text__paragraph paragraph2">
                ${producto.descripcion}
