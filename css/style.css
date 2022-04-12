@@ -470,7 +470,7 @@ body {
 }
 .card {
    padding: 0px !important;
-   
+
    width: auto;
    height: auto;
    border-radius: 0px 0px 15px 15px;
@@ -482,7 +482,7 @@ body {
 
 .text-center {
    background-color: var(--detailColor1);
-   
+
    padding-bottom: 10px;
    border-radius: 0px 0px 15px 15px;
 }
@@ -804,33 +804,12 @@ footer {
 .footer-social {
    width: 2.2rem;
 }
-@media (max-width: 1023px) {
-   /* Slide */
-   .container__text {
-      z-index: 1;
-   }
-   .text-container {
-      font-size: 25px;
-      font-weight: bold;
-      font-family: "red Hat Display";
-      text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.11);
-      z-index: 1;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.67);
-   }
 
-   .text-container::after {
-      width: 110%;
-      height: 25px;
-      right: 0px;
-      top: 0.8rem;
-   }
-
-   .btn__products {
-      font-size: 12px;
-      color: var(--mainColor1);
-      font-weight: 700;
-   }
+.footer-social:hover, .footer-social:focus {
+   filter:invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg) brightness(101%) contrast(102%);
+   -webkit-filter:invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg) brightness(101%) contrast(102%);
 }
+
 /* ======================================================================================================================= 
 ===================================================== DESKTOP ============================================================ 
 ======================================================================================================================= */
@@ -938,25 +917,26 @@ footer {
       width: 100%;
    }
 
-   .carousel-item{
+   .carousel-item {
       outline-offset: -8px;
       overflow: hidden;
       position: relative;
    }
-   .slide-img, carousel-inner {
+   .slide-img,
+   carousel-inner {
       position: absolute;
       width: 100%;
       height: 754px;
       inset: 0;
       object-fit: cover;
       opacity: 0.9;
-      transition: transform 0.75s ease-in-out;
-      -webkit-transition: transform 0.75s;
-      -moz-transition: transform 0.75s;
-      -ms-transition: transform 0.75s;
-      -o-transition: transform 0.75s;
+      transition: transform 0.9s ease-in-out;
+      -webkit-transition: transform 0.9s ease-in-out;
+      -moz-transition: transform 0.9s ease-in-out;
+      -ms-transition: transform 0.9s ease-in-out;
+      -o-transition: transform 0.9s ease-in-out;
    }
-   .slide-img:hover{
+   .slide-img:hover {
       transform: scale(1.15);
       -webkit-transform: scale(1.15);
       -moz-transform: scale(1.15);
@@ -1203,13 +1183,13 @@ footer {
    }
    .card {
       padding: 0px !important;
-      
+
       height: auto;
       border-radius: 0px 0px 15px 15px;
       width: 25%;
       max-width: 25%;
       transition: all 0.5s ease;
-      border: none!important;
+      border: none !important;
    }
 
    .card:hover {
@@ -1538,28 +1518,17 @@ footer {
       justify-content: space-between;
    }
 
-
-
    .footer-social {
       width: 2.2rem;
    }
 
    .footer-social:hover, .footer-social:focus {
-      filter: saturate(4);
-   }
+      filter:invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg) brightness(101%) contrast(102%);
+      -webkit-filter:invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg) brightness(101%) contrast(102%);
+}
 }
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-   /* Slide */
 
-   .text-container {
-      position: relative;
-   }
-   .text-container::after {
-      width: 110%;
-      height: 24px;
-   }
-}
 
 @media screen and (min-width: 1024px) and (max-width: 1517px) {
    /* Details */
