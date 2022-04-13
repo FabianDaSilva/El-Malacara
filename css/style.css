@@ -810,14 +810,6 @@ footer {
    width: 2.2rem;
 }
 
-.footer-social:hover,
-.footer-social:focus {
-   filter: invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg)
-      brightness(101%) contrast(102%);
-   -webkit-filter: invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg)
-      brightness(101%) contrast(102%);
-}
-
 /* ======================================================================================================================= 
 ===================================================== DESKTOP ============================================================ 
 ======================================================================================================================= */
@@ -884,7 +876,6 @@ footer {
       box-sizing: border-box;
       display: flex;
       align-items: center;
-      
    }
 
    .navbar__links {
@@ -1378,7 +1369,7 @@ footer {
       font-weight: 400;
       color: var(--mainColor1);
    }
-   .bajar{
+   .bajar {
       position: relative;
       top: 37px;
    }
@@ -1542,14 +1533,6 @@ footer {
 
    .footer-social {
       width: 2.2rem;
-   }
-
-   .footer-social:hover,
-   .footer-social:focus {
-      filter: invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg)
-         brightness(101%) contrast(102%);
-      -webkit-filter: invert(30%) sepia(13%) saturate(1188%) hue-rotate(327deg)
-         brightness(101%) contrast(102%);
    }
 }
 
