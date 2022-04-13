@@ -910,15 +910,14 @@ footer {
    .navbar__links:hover {
       color: var(--linkColor1);
       transition: all 0.3s ease;
-      border-bottom: 10px solid var(--linkColor1);
-      height: 67px;
+      border-bottom: 4px solid var(--linkColor1);
+      height: 30px;
    }
 
    /* Js efecto navbar */
    .highlight {
-      height: 100%;
-      border-bottom: 10px solid var(--textColor1);
-      max-height: calc(inherit - 10px);
+      height: 45%;
+      border-bottom: 4px solid var(--detailColor2);
    }
 
    /* Slide */
