@@ -1200,6 +1200,7 @@ footer {
    .detail__img__container {
       display: flex;
       flex-direction: column;
+      width: 100%;
    }
 
    /* Products */
@@ -1733,7 +1734,7 @@ footer {
    }
 
    .home-details__img-col-1 > img {
-      height: 60%;
+      height: 100%;
    }
    
    
