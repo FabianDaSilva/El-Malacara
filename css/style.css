@@ -197,6 +197,7 @@ body {
 
 #carouselExampleControlsNoTouching {
    height: 100% !important;
+   width: 100%;
 }
 
 .carousel-inner,
@@ -384,14 +385,23 @@ body {
    padding: 0;
 }
 
+.detail__img__container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
 .single-detail-img {
    height: 519px;
    padding-right: 33px;
    position: relative;
+   width: 100%;
 }
 
 .home-details__img-col-1 {
    display: none;
+   width: 100%;
 }
 
 .home-details__img-col-2 {
