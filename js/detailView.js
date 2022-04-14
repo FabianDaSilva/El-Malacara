@@ -42,7 +42,7 @@ const renderDetailView = (contenedorProductos, producto) => {
                </div>
                <div class="container__btn__detailView">
                   <a href="#productos_view"><button class="btn__detailView btn mt-3" >CONSULTAR PRECIO</button></a>
-              </div> 
+               </div> 
             </div>
                
 
