@@ -692,7 +692,7 @@ body {
 
 .home-contact {
    background-color: #484437;
-   background-image: url("https://i.ibb.co/GThRnLD/footer.png");
+   background-image: url("../images/footer/footer.png");
    object-fit: cover;
    background-size: cover;
    display: flex;

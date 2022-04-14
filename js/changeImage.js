@@ -2,24 +2,24 @@ import { hasMedidas, liItems } from "./data/medidasList.js"
 
 
 function changeImage(contenedorProductos, clickedImage, producto) {
-    const clickedImageSrc = clickedImage.src
-    const mainImg = document.getElementById("mainImg").src /*.src="../newimg/abc.jpg";*/
-    const otherImg1 = document.getElementById("Img1").src
-    const otherImg2 = document.getElementById("Img2").src
-    const otherImg3 = document.getElementById("Img3").src
+   const clickedImageSrc = clickedImage.src
+   const mainImg = document.getElementById("mainImg").src /*.src="../newimg/abc.jpg";*/
+   const otherImg1 = document.getElementById("Img1").src
+   const otherImg2 = document.getElementById("Img2").src
+   const otherImg3 = document.getElementById("Img3").src
 
-    // Creamos un array con las TODAS imagenes
-    const imgList = [mainImg,otherImg1,otherImg2,otherImg3]
-    // Creamos un array filtrado que no contenga la imagen clickeada que se va a mostrar en grande para reacomodar las iamgenes
-    // asi las ponemos despues en las miniaturas
-    const filteredList = imgList.filter((img) => {
-        return img !== clickedImageSrc
-    })
+   // Creamos un array con las TODAS imagenes
+   const imgList = [mainImg, otherImg1, otherImg2, otherImg3]
+   // Creamos un array filtrado que no contenga la imagen clickeada que se va a mostrar en grande para reacomodar las iamgenes
+   // asi las ponemos despues en las miniaturas
+   const filteredList = imgList.filter((img) => {
+      return img !== clickedImageSrc
+   })
 
 
-    contenedorProductos.innerHTML = "";
+   contenedorProductos.innerHTML = "";
 
-    contenedorProductos.innerHTML += `
+   contenedorProductos.innerHTML += `
       <div class="detailView-container">
          <div class="detailView-container__images">
             <div class="images__main-img">
@@ -48,22 +48,22 @@ function changeImage(contenedorProductos, clickedImage, producto) {
                </p>
                </div>
                <div class="container__btn__detailView">
-                  <a href="https://api.whatsapp.com/send?phone=+541128376428&text=%C2%A1Hola!%20Como%20estas?%20Queria%20consultarle%20por%20${producto.tipo} ${producto.nombre}😄😄"><button class="btn__detailView btn mt-3">CONSULTAR PRECIO</button></a>
+                  <a href="https://api.whatsapp.com/send?phone=+5491128376428&text=Ac%C3%A1%20quiz%C3%A1s%20pueda%20ser%20as%C3%AD:%20%22%C2%A1Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%${producto.tipo}%20${producto.nombre}.  😄😄"><button class="btn__detailView btn mt-3">CONSULTAR PRECIO</button></a>
                </div>
                
                
          </div>
       </div>
     `;
-    const allImgs = document.querySelectorAll(".otra-img");
+   const allImgs = document.querySelectorAll(".otra-img");
 
-    for(let img of allImgs) {
+   for (let img of allImgs) {
 
-        img.addEventListener("click", (e)=> {
-            let clickedImage = e.target
-            changeImage(contenedorProductos, clickedImage, producto)
-        })
-    }
+      img.addEventListener("click", (e) => {
+         let clickedImage = e.target
+         changeImage(contenedorProductos, clickedImage, producto)
+      })
+   }
 }
 
 export { changeImage }

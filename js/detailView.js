@@ -53,7 +53,7 @@ const renderDetailView = (contenedorProductos, producto) => {
                `;
                const allImgs = document.querySelectorAll(".otra-img");
                
-              /*  <a href="https://api.whatsapp.com/send?phone=+541128376428&text=%C2%A1Hola!%20Como%20estas?%20Queria%20consultarle%20por%20${producto.tipo} ${producto.nombre}😄😄" class="detailView-btnContainer"><p class="detailView-btn">CONSULTAR PRECIO</p></a> */
+              /*  <a href="https://api.whatsapp.com/send?phone=+5491128376428&text=Ac%C3%A1%20quiz%C3%A1s%20pueda%20ser%20as%C3%AD:%20%22%C2%A1Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%${producto.tipo}%20${producto.nombre}.  😄😄"><button class="btn__detailView btn mt-3">CONSULTAR PRECIO</button></a> */
 
 
    for (let img of allImgs) {
