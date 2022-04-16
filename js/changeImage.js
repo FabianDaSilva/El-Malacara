@@ -48,10 +48,10 @@ function changeImage(contenedorProductos, clickedImage, producto) {
                </p>
                </div>
                <div class="container__btn__detailView">
-                  <a href="https://api.whatsapp.com/send?phone=5491128376428&text=Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%20${producto.tipo}%20${producto.nombre}.  😄😄"><button class="btn__detailView btn mt-3">CONSULTAR PRECIO</button></a>
+                  <a href="https://api.whatsapp.com/send?phone=5491128376428&text=Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%20${producto.tipo}%20${producto.nombre}.  😄😄"  target="_blank"><button class="btn__detailView btn mt-3">CONSULTAR PRECIO</button></a>
                </div>
                
-               <a href="https://api.whatsapp.com/send?phone=+5491128376428&text=Ac%C3%A1%20quiz%C3%A1s%20pueda%20ser%20as%C3%AD:%20%22%C2%A1Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%20${producto.tipo}%20${producto.nombre}.  😄😄"" target="_blank" class="btn-wsp SPA">
+               <a href="https://api.whatsapp.com/send?phone=+5491128376428&text=Hola%20El%20Malacara%20Handcrafted%F0%9F%90%B4!%20Quiero%20consultar%20por%20${producto.tipo}%20${producto.nombre}.  😄😄"" target="_blank" class="btn-wsp SPA">
                   <img src="./images/icons/icon-wp.png" alt="" class="img_wsp" />
                </a>
          </div>

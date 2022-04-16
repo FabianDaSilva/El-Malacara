@@ -1,7 +1,7 @@
 [
    {
       "id": "1",
-      "imagen": "../../images/products/1_silla_comedor/reducida.jpg",
+      "imagen": "../../images/products/1_silla_comedor/01.jpg",
       "otrasImgs":["../../images/products/1_silla_comedor/02.jpg","../../images/products/1_silla_comedor/03.jpg","../../images/products/1_silla_comedor/04.jpg"],
       "nombre": "COMEDOR",
       "tipo": "Silla",
@@ -16,7 +16,7 @@
    },
    {
       "id": "2",
-      "imagen": "../../images/products/2_silla_matera/reducida.jpg",
+      "imagen": "../../images/products/2_silla_matera/1.jpg",
       "otrasImgs":["../../images/products/2_silla_matera/2.jpg","../../images/products/2_silla_matera/3.jpg","../../images/products/2_silla_matera/4.jpg"],
       "nombre": "MATERA",
       "tipo": "Silla",
@@ -46,7 +46,7 @@
    },
    {
       "id": "4",
-      "imagen": "../../images/products/4_banqueta_pampa/reducida.jpg",
+      "imagen": "../../images/products/4_banqueta_pampa/1.jpg",
       "otrasImgs":["../../images/products/4_banqueta_pampa/2.jpg","../../images/products/4_banqueta_pampa/3.jpg","../../images/products/4_banqueta_pampa/4.jpg"],
       "nombre": "PAMPA",
       "tipo": "Banqueta",
@@ -61,7 +61,7 @@
    },
    {
       "id": "5",
-      "imagen": "../../images/products/5_banqueta_gaucho/reducida.jpg",
+      "imagen": "../../images/products/5_banqueta_gaucho/1.jpg",
       "otrasImgs":["../../images/products/5_banqueta_gaucho/2.jpg","../../images/products/5_banqueta_gaucho/3.jpg","../../images/products/5_banqueta_gaucho/4.jpg"],
       "nombre": "GAUCHO",
       "tipo": "Banqueta",
@@ -76,7 +76,7 @@
    },
    {
       "id": "6",
-      "imagen": "../../images/products/6_banquito_pampa/reducida.jpg",
+      "imagen": "../../images/products/6_banquito_pampa/1.jpg",
       "otrasImgs":["../../images/products/6_banquito_pampa/2.jpg","../../images/products/6_banquito_pampa/3.jpg","../../images/products/6_banquito_pampa/4.jpg"],
       "nombre": "PAMPA",
       "tipo": "Banquito",
@@ -91,7 +91,7 @@
    },
    {
       "id": "7",
-      "imagen": "../../images/products/7_sillon_tripolina/reducida.jpg",
+      "imagen": "../../images/products/7_sillon_tripolina/1.jpg",
       "otrasImgs":["../../images/products/7_sillon_tripolina/4.jpg","../../images/products/7_sillon_tripolina/2.jpg","../../images/products/7_sillon_tripolina/3.jpg"],
       "nombre": "TRIPOLINA",
       "tipo": "Sillón",
@@ -106,7 +106,7 @@
    },
    {
       "id": "8",
-      "imagen": "../../images/products/8_sillon_bkf/reducida.jpg",
+      "imagen": "../../images/products/8_sillon_bkf/1.jpg",
       "otrasImgs":["../../images/products/8_sillon_bkf/2.jpg","../../images/products/8_sillon_bkf/3.jpg","../../images/products/8_sillon_bkf/4.jpg"],
       "nombre": "BKF",
       "tipo": "Sillón",
@@ -121,7 +121,7 @@
    },
    {
       "id": "9",
-      "imagen": "../../images/products/9_sillon_coco/reducida.jpg",
+      "imagen": "../../images/products/9_sillon_coco/1.jpg",
       "otrasImgs":["../../images/products/9_sillon_coco/2.jpg","../../images/products/9_sillon_coco/3.jpg","../../images/products/9_sillon_coco/4.jpg"],
       "nombre": "COCO",
       "tipo": "Sillón",
@@ -136,7 +136,7 @@
    },
    {
       "id": "10",
-      "imagen": "../../images/products/10_sillon_peritoMoreno/reducida.jpg",
+      "imagen": "../../images/products/10_sillon_peritoMoreno/1.jpg",
       "otrasImgs":["../../images/products/10_sillon_peritoMoreno/2.jpg","../../images/products/10_sillon_peritoMoreno/3.jpg","../../images/products/10_sillon_peritoMoreno/4.jpg"],
       "nombre": "PERITO MORENO",
       "tipo": "Sillón",
@@ -151,7 +151,7 @@
    },
    {
       "id": "11",
-      "imagen": "../../images/products/11_sillon_honguito/reducida.jpg",
+      "imagen": "../../images/products/11_sillon_honguito/1.jpg",
       "otrasImgs":["../../images/products/11_sillon_honguito/3.jpg","../../images/products/11_sillon_honguito/4.jpg", "../../images/products/11_sillon_honguito/2.jpg"],
       "nombre": "HONGUITO",
       "tipo": "Sillón",
@@ -166,7 +166,7 @@
    },
    {
       "id": "12",
-      "imagen": "../../images/products/12_sillon_calandra/reducida.jpg",
+      "imagen": "../../images/products/12_sillon_calandra/1.jpg",
       "otrasImgs":["../../images/products/12_sillon_calandra/2.jpg","../../images/products/12_sillon_calandra/3.jpg","../../images/products/12_sillon_calandra/4.jpg"],
       "nombre": "CALANDRA",
       "tipo": "Sillón",
@@ -181,7 +181,7 @@
    },
    {
       "id": "13",
-      "imagen": "../../images/products/13_sillon_piet/reducida.jpg",
+      "imagen": "../../images/products/13_sillon_piet/1.jpg",
       "otrasImgs":["../../images/products/13_sillon_piet/2.jpg","../../images/products/13_sillon_piet/3.jpg","../../images/products/13_sillon_piet/4.jpg"],
       "nombre": "PIET",
       "tipo": "Sillón",
@@ -196,7 +196,7 @@
    },
    {
       "id": "14",
-      "imagen": "../../images/products/14_sillon_wasally/reducida.jpg",
+      "imagen": "../../images/products/14_sillon_wasally/1.jpg",
       "otrasImgs":["../../images/products/14_sillon_wasally/2.jpg","../../images/products/14_sillon_wasally/3.jpg","../../images/products/14_sillon_wasally/4.jpg"],
       "nombre": "WASALLY",
       "tipo": "Sillón",
@@ -211,7 +211,7 @@
    },
    {
       "id": "15",
-      "imagen": "../../images/products/15_pie_de_cama/reducida.jpg",
+      "imagen": "../../images/products/15_pie_de_cama/1.jpg",
       "otrasImgs":["../../images/products/15_pie_de_cama/2.jpg","../../images/products/15_pie_de_cama/3.jpg","../../images/products/15_pie_de_cama/4.jpg"],
       "nombre": "CAMA",
       "tipo": "Pie de",
