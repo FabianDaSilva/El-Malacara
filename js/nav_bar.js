@@ -12,7 +12,6 @@ menu.addEventListener("click", mobileMenu);
 
 const highlightMenu = () => {
    const elem = document.querySelector(".highlight");
-   const detalles = document.querySelector("#detalles-home");
    const productos = document.querySelector("#producto-home");
    const contacto = document.querySelector("#contacto-home");
    let scrollPos = window.scrollY;

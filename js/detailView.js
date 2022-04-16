@@ -18,9 +18,9 @@ const renderDetailView = (contenedorProductos, producto) => {
                <img class="img-${producto.nombre}-${producto.id}" id="mainImg" src="${producto.imagen}" alt="" />
             </div>
             <div class="${producto.nombre}-${producto.id} otras-img">
-               <a href='#'><img class="otra-img num1" id="Img1" src="${producto.otrasImgs[0]}" alt="" /></a>
-               <a href='#'><img class="otra-img num2" id="Img2" src="${producto.otrasImgs[1]}" alt="" /></a>
-               <a href='#'><img class="otra-img num3" id="Img3" src="${producto.otrasImgs[2]}" alt="" /></a>
+               <a href='#'><img class="otra-img num1 d-block w-100" id="Img1" src="${producto.otrasImgs[0]}" alt="" /></a>
+               <a href='#'><img class="otra-img num2 d-block w-100" id="Img2" src="${producto.otrasImgs[1]}" alt="" /></a>
+               <a href='#'><img class="otra-img num3 d-block w-100" id="Img3" src="${producto.otrasImgs[2]}" alt="" /></a>
             </div>
          </div>
          <div class="detailView-container__details">
