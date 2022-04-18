@@ -1332,7 +1332,9 @@ footer {
    }
 
    .otra-img {
+      object-fit:contain;
       width: 100%;
+      background-color: white;
    }
 
    .detailView-container__details {
