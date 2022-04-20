@@ -223,5 +223,20 @@
       "cardName": "PIE DE CAMA",
       "cardMade": "MADERA PETRIBÍ / PARAÍSO",
       "cardChoice": "Cuero trenzado a elección"
+   },
+   {
+      "id": "16",
+      "imagen": "../../images/products/16_respaldo_de_cama/reducida.jpg",
+      "otrasImgs":["../../images/products/16_respaldo_de_cama/1.jpg","../../images/products/16_respaldo_de_cama/2.jpg","../../images/products/16_respaldo_de_cama/3.jpg"],
+      "nombre": "CAMA",
+      "tipo": "Respaldo de",
+      "precio": "Precios",
+      "categoria": "Madera",
+      "medidas": [ ],
+      "madeOf": "Hecha en madera de <span class='strongText'>PETRIBÍ/PARAÍSO</span> maciza estacionada, protegida con laca al agua. <br><br> Hecho a medida",
+      "descripcion": "Cuero trenzado a elección.",      
+      "cardName": "RESPALDO DE CAMA",
+      "cardMade": "MADERA PETRIBÍ / PARAÍSO",
+      "cardChoice": "Cuero trenzado a elección"
    }
 ]
